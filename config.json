@@ -1,4 +1,6 @@
 {
     "directoryRoot": "/mnt/m3",
-    "directoryOutput": "/mnt/temp"
+    "directoryOutput": "/mnt/temp",
+   
+    "directoryBlacklist": "./blacklist"
 }
