@@ -77,6 +77,7 @@ class LastFMFetcher(ArtworkFetcher):
         :param album: <Album> Our Album object to search service for
         :return: <str> URL where art is located
         """
+        artwork_url = ""
 
         request_url = self.base_url + "/" + album.artist + "/" + album.album
         r = requests.get(request_url)
